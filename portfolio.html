@@ -3,40 +3,50 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfolio Home Page</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/rest.css">
+        
     </head>
 
     <body background="images/back.png">
 
-        <header>Kevin Semo</header>
         <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>  
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul id="short">
+                <li><header>Kevin Semo</header></li>
+                <div id="tabs">
+                    <li><a href="index.html">About</a></li> 
+                    <li><a href="portfolio.html">Portfolio</a></li> 
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
             </ul>
-        </nav>
+        </nav>            
+        
+        <br>
 
-        <section id="about">
+        <section id="port">
             <h1>Portfolio</h1>
-            <ul id="projects">
-                <li><img src="images/hangman.jpg" width="150px">Hangman</li>
-                <li><img src="images/rpg.jpg" width="150px">RPG Game</li>
-                <li><img src="images/trivia.jpg" width="150px">Trivia Game</li>
-                <li><img src="images/rutgers.jpeg" width="150px">Rutgers Info Widget</li>
-                <li><img src="images/rock.jpeg" width="150px">Rock Paper Scissors</li>
+            <ul id="proj">
+                <li class="projects"><img src="images/hangman.jpg" width="150px"></li>
+                <li class="ptext">Hangman</li>
+                <li class="projects"><img src="images/rpg.jpg" width="150px"></li>
+                <li class="ptext">RPG Game</li>
+                <li class="projects"><img src="images/trivia.jpg" width="150px"></li>
+                <li class="ptext">Trivia Game</li>
+                <li class="projects"><img src="images/rutgers.jpeg" width="150px"></li>
+                <li class="ptext">Rutgers Info Widget</li>
+                <li class="projects"><img src="images/rock.jpeg" width="150px"></li>
+                <li class="ptext">Rock Paper Scissors</li>
             </ul>
         </section>
 
         <section id="links">
-            <h1>Connect with me</h1>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/kevinsemo" target="_blank"><img width="50" height="50" src="images/linkedin.svg"></a></li>
-                <li><a href="https://github.com/kmsemo1" target="_blank"><img width="50" height="50" src="images/github.svg"></a></li>
-                <li><a href="https://stackoverflow.com/users/8828645/kmsemo1" target="_blank"><img width="50px" height="50px" src="images/stackoverflow.svg"></a></li>
-            </ul>
-        </section>
+                <h1 id="connect">Connect with me</h1>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/kevinsemo" target="_blank"><img width="50" height="50" src="images/linkedin.svg"> </a></li>
+                    <li><a href="https://github.com/kmsemo1" target="_blank"><img width="50" height="50" src="images/github.svg"> </a></li>
+                    <li><a href="https://stackoverflow.com/users/8828645/kmsemo1" target="_blank"><img width="50px" height="50px" src="images/stackoverflow.svg"> </a></li>
+                </ul>
+         </section>
 
         <footer>
             <h6>Copyrite © 2017 Kevin Semo</h6>

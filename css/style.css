@@ -1,3 +1,93 @@
-h1 {
+body {
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    margin: 0 auto;
+}
+
+
+h1, h6, header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: #444444;
+}
+
+header, .ptext{
+    background-color: #4aaaa5;
+    text-align: center;
+    display: inline-block;
+}
+
+#port {
+    display: inline-table;
+}
+
+#about, #port{
+    position: relative;
+    width:650px;
+    margin-bottom: 20px;
+    left: 240px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #dddddd
+}
+
+#links{
+    position: absolute;
+    right: 240px;
+    bottom: 590px;
+    width: 270px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd
+}
+
+ul {list-style-type: none;
+    margin: 0px 15px;
+    padding: 14px 16px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li, li a{
+    display: inline;
+    color:#777777;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    float: clear: both;
+    background-color: #666666; 
+    text-align: center;
+    border: 1px solid #cccccc;
+    margin: 0 auto; 
+    width: 100%
+}
+
+header {
+    position: relative;
+    left: 205px;
+}
+
+#tabs{
+    position: absolute;
+    right: 240px;
+    top: 15px;
+}
+
+.form {
+    width: 645px;
+}
+
+.mform {
+    height: 400px;
+    width: 645px;
+}
+
+.projects, .ptext {
+    display: inline;
 }
