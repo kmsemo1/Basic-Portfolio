@@ -3,17 +3,21 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 24px;
     line-height: 32px;
-    color: #333;
+    color: #ffffff;
     margin: 0 auto;
 }
 
+header {
+    position: relative;
+    left: 205px;
+}
 
 h1, h6, header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #444444;
 }
 
-header, .ptext{
+header, .txt{
     background-color: #4aaaa5;
     text-align: center;
     display: inline-block;
@@ -24,7 +28,7 @@ header, .ptext{
 }
 
 #about, #port{
-    position: relative;
+    position: absolute;
     width:650px;
     margin-bottom: 20px;
     left: 240px;
@@ -33,6 +37,9 @@ header, .ptext{
     border: 1px solid #dddddd
 }
 
+section{
+    margin-block-end:  auto;
+}
 #links{
     position: absolute;
     right: 240px;
@@ -43,11 +50,16 @@ header, .ptext{
     border: 1px solid #dddddd
 }
 
-ul {list-style-type: none;
+ul {
+    list-style-type: none;
     margin: 0px 15px;
     padding: 14px 16px;
     overflow: hidden;
     background-color: #ffffff;
+}
+
+#proj {
+    display: block;
 }
 
 li, li a{
@@ -60,7 +72,6 @@ li, li a{
 footer {
     position: absolute;
     bottom: 0px;
-    float: clear: both;
     background-color: #666666; 
     text-align: center;
     border: 1px solid #cccccc;
@@ -68,10 +79,6 @@ footer {
     width: 100%
 }
 
-header {
-    position: relative;
-    left: 205px;
-}
 
 #tabs{
     position: absolute;
@@ -88,6 +95,95 @@ header {
     width: 645px;
 }
 
-.projects, .ptext {
+.projects, .txt {
     display: inline;
 }
+
+
+.p1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+.ptext1 {
+    position: relative;
+    top: 160px;
+    left:19px;
+
+    padding: 10px 73px;
+}
+
+.p2 {
+    position: relative;
+    bottom: 28px;
+    left: 325px;
+
+}
+
+.ptext2 {
+    position: relative;
+    bottom: 80px;
+    left:325px;
+
+    padding: 10px 63px;
+}
+
+.p3 {
+    position: relative;
+    bottom: 28px;
+    left: 19px;
+
+}
+
+.ptext3 {
+    position: relative;
+    bottom: 80px;
+    left:19px;
+
+    padding: 10px 60px;
+}
+
+.p4 {
+    position: relative;
+    bottom: 268px;
+    left: 325px;
+
+}
+
+.ptext4 {
+    position: relative;
+    bottom: 320px;
+    left:325px;
+    padding: 10px 19px;
+}
+
+.p5 {
+    position: relative;
+    bottom: 265px;
+    left: 19px;
+
+}
+
+.ptext5 {
+    position: relative;
+    bottom: 318px;
+    left:19px;
+    padding: 10px 14px;
+}
+
+#foot {
+    position: relative;
+    bottom: 0%;
+    background-color: #666666; 
+    text-align: center;
+    border: 1px solid #cccccc;
+    margin: 0 auto; 
+    width: 100%
+}
+
+.txt {
+    width: 250px;
+}
+
